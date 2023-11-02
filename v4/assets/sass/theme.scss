@@ -35,7 +35,7 @@ $continue-reading-hover-color: {{ .Param "continueReadingHoverColor" | default "
 
 $footer-border-color: {{ .Param "footerBorderColor" | default "#eee" }};
 $footer-background-color: {{ .Param "footerBackgroundColor" | default "rgba(#ffffff, 80)" }};
-$footer-headline-color: {{ .Param "" | default "#444" }};
+$footer-headline-color: {{ .Param "footerHeadlineColor" | default "#444" }};
 
 @mixin featuredImage() {
   .featured-image {
